@@ -1,7 +1,12 @@
 body {
     background-color: #222222;
     font-family: "Consolas";
-    color: #FFFFFF;
+    animation: mycolor 500ms infinite;
+}
+
+@keyframes mycolor {
+    from {color: #FFF;}
+    to {color: #DDD;}
 }
 
 h1 {
@@ -12,4 +17,8 @@ h1 {
 p {
     
     font-size: 20px;
+}
+
+.center {
+    text-align: center;
 }
