@@ -4,7 +4,6 @@ body {
 }
 
 body{
-	/*background:#333333;*/
 	background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
 	background-attachment: fixed;
 	color:#212121;
@@ -18,14 +17,14 @@ body{
 		padding-right: 0.5rem;
 	}
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 300pt) {
 	.container{
 		width: 90%;
 		max-width: 46rem;
 	}
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 576pt) {
 	.container{
 		min-width: 72rem;
 		width: 80%;	
@@ -33,7 +32,7 @@ body{
 	}
 }
 
-@media all and (min-width: 1400px) {
+@media all and (min-width: 1050pt) {
 	html,body{
 		font-size:18px;
 	}
@@ -96,7 +95,6 @@ body{
 }
 
 .game-button{
-	/*display: inline-block;*/
 	vertical-align: middle;
 	width: 9em;
 	line-height: 1.8em;
