@@ -33,6 +33,7 @@ body{
 	}
 }
 
+/*
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
@@ -42,13 +43,13 @@ only screen and (                min-resolution: 192dpi) and (min-width: 1300px)
 only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
   font-size: 200%;
 }
+*/
 
-/*@media all and (min-width: 1050pt) {
+@media all and (min-width: 1050pt) {
 	html,body{
-		font-size:18px;
+		font-size: 1.2em;
 	}
 }
-*/
 
 .flex {
     display: -webkit-flex; /* Safari */
@@ -123,7 +124,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 .game-button:hover{
 	background:#515151;
-	margin-right: 0.05rem;
 }
 
 .shadow-hover{
@@ -209,7 +209,8 @@ h3{
 hr{
    border: 0;
    height: 0.1rem;
-   background-color: #212121;
+   min-height: 1px;
+   /*background-color: #212121;*/
    background-image: -webkit-linear-gradient(to right, #21212100, #212121ff, #21212100);
    background-image: -moz-linear-gradient(to right, #21212100, #212121ff, #21212100);
    background-image: -o-linear-gradient(to right, #21212100, #212121ff, #21212100);
