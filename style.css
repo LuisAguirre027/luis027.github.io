@@ -1,24 +1,122 @@
+html, 
 body {
-    background-color: #222222;
-    font-family: "Consolas";
-    animation: mycolor 500ms infinite;
+    height: 100%;
 }
 
-@keyframes mycolor {
-    from {color: #FFF;}
-    to {color: #DDD;}
+body{
+	/*background:#333333;*/
+	background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
+	background-attachment: fixed;
+	color:#212121;
+	font-family: Roboto Condensed;
+	letter-spacing: 2px;
 }
 
-h1 {
-    
-    text-align: center;
+.game-pic{
+	overflow:hidden;
+	border-radius:3px;
+	margin: 1.60%;
+	transform: scale(1s);
+	transition: transform 0.5s;
+	margin-bottom:4%;
+	margin-top:2.5%;
 }
 
-p {
-    
-    font-size: 20px;
+.game-pic:hover{
+	transform: scale(1.05);
 }
 
-.center {
-    text-align: center;
+.game-pic>img{
+	width: 100%;
 }
+
+.game-card{
+	color:#212121;
+	font-weight: 500;
+}
+
+
+
+.game-card>p{
+	margin: 1.60%;
+	text-align: justify;
+}
+
+
+.game-title{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	/*color:#b3b3b3;*/
+	letter-spacing: 2px;
+}
+
+.game-title>span{
+	display: inline-block;
+	vertical-align: bottom;
+	line-height: normal;
+}
+
+.social{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	/*color:#b3b3b3;*/
+	letter-spacing: 2px;
+	
+}
+
+.title{
+	text-align: center;
+	font-weight: 800;	
+}
+
+.contact-info{
+	text-align: center;
+	padding: 20px;
+	color: #f2f2f2;
+	background:#313131;
+	max-width: 310px;
+	margin: auto;
+	margin-bottom: 50px;
+	border-radius: 7px;
+}
+
+
+.contact-info h2{
+	margin-top: 7px;
+}
+
+h1, h2 ,h3{
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 2px;
+	
+}
+
+h1{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+hr{
+   border: 0;
+   height: 1px;
+   background-image: linear-gradient(to right, #21212100, #212121ff, #21212100);
+}
+
