@@ -209,9 +209,14 @@ h3{
 hr{
    border: 0;
    height: 0.1rem;
+   background-color: #212121;
+   background-image: -webkit-linear-gradient(to right, #21212100, #212121ff, #21212100);
+   background-image: -moz-linear-gradient(to right, #21212100, #212121ff, #21212100);
+   background-image: -o-linear-gradient(to right, #21212100, #212121ff, #21212100);
    background-image: linear-gradient(to right, #21212100, #212121ff, #21212100);
 }
 
 a:hover{
 text-decoration: none;
 }
+
