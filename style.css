@@ -1,15 +1,22 @@
 html, 
 body {
     height: 100%;
+	background-size: 224px;
+	cursor:url("img/cursor.png"),auto !important;
 }
 
 body{
-	/*background:#333333;*/
-	background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
-	background-attachment: fixed;
-	color:#212121;
+	background-image: url("img/bgr.png");
+	background-repeat: repeat-x;
+	
+	background-color: #9f6582;
+	color:#26262a;
 	font-family: Roboto Condensed;
 	letter-spacing: 0.2rem;
+}
+
+a{
+	cursor: inherit;
 }
 
 .container{
@@ -33,22 +40,12 @@ body{
 	}
 }
 
-/*
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
-only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
-  font-size: 200%;
-}
-*/
-
 @media all and (min-width: 1050pt) {
 	html,body{
 		font-size: 1.2em;
+		background-size: 448px;
 	}
+
 }
 
 .flex {
@@ -59,7 +56,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .game-card{
-	color:#212121;
+	color:#26262a;
 	font-weight: 500;
 	height: auto;
 }
@@ -117,13 +114,13 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 	margin:auto;
 	margin-bottom: 0.6em;
 	text-align:center;
-	color: #f2f2f2;
-	background:#313131;
+	color: #b2e1d7;
+	background:#26262a;
 	transition: all 0.5s;
 }
 
 .game-button:hover{
-	background:#515151;
+	background:#51514e;
 }
 
 .shadow-hover{
@@ -155,6 +152,28 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 	
 }
 
+.avatar{
+	margin-top: 2rem;
+	height: 5rem;
+	float: left;
+}
+
+.avatar-right {
+	float: right;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.main-title{
+	height: 13rem;
+	padding-top: 0.8rem;
+}
+
+
 .title{
 	text-align: center;
 	font-weight: 800;	
@@ -169,8 +188,8 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 .contact-info>div{
 	text-align: center;
 	padding: 2rem;
-	color: #f2f2f2;
-	background:#313131;
+	color: #b2e1d7;
+	background:#26262a;
 
 	border-radius: 0.7rem;
 	margin: 1.6%;
