@@ -6,23 +6,25 @@ body {
 }
 
 body{
-	background-image: url("img/bgr.png");
-	background-repeat: repeat-x;
-	
-	background-color: #9f6582;
 	color:#26262a;
-	font-family: Roboto Condensed;
+	font-family: Roboto Condensed, Verdana, Geneva, sans-serif;
 	letter-spacing: 0.2rem;
 }
 
 a{
 	cursor: inherit;
+	color:#CF81AF;
+}
+
+a:hover{
+	color:#9f6582;
 }
 
 .container{
 		width: 100%;
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
+		margin: auto;
 	}
 
 @media all and (min-width: 300pt) {
@@ -48,11 +50,65 @@ a{
 
 }
 
+.content{
+	background-image: url("img/bgr.png");
+	background-repeat: repeat-x;
+	background-color: #9f6582;
+	padding-top: 2rem;
+}
+
 .flex {
     display: -webkit-flex; /* Safari */
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;  
     flex-wrap: wrap;
+}
+
+.link {
+	text-align: center;
+}
+
+.social{
+	margin-top: 2rem;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	
+}
+
+.avatar{
+	margin-top: 2rem;
+	height: 5rem;
+	float: left;
+}
+
+.avatar-right {
+	float: right;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.main-title{
+	/*height: 13rem;*/
+	width: 100%;
+	padding-top: 0.8rem;
+	background: #B1E0D6;
+}
+
+.main-title h1{
+	margin-bottom: 0px;
+}
+
+
+.title{
+	text-align: center;
+	font-weight: 800;	
 }
 
 .game-card{
@@ -123,14 +179,7 @@ a{
 	background:#43436f;
 }
 
-.shadow-hover{
-	box-shadow: 0.2rem 0.2rem 0.25rem #00000030;
-	transition: all 0.25s;
-}
 
-.shadow-hover:hover{
-	box-shadow: 0.25rem 0.25rem 0.30rem #00000030;
-}
 
 .button-container{
 	position: absolute;
@@ -142,41 +191,12 @@ a{
 	margin-right: auto; 
 }
 
-.social{
-	margin-top: 2rem;
-	text-align: center;
-	font-size: 3rem;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	
-}
-
-.avatar{
-	margin-top: 2rem;
-	height: 5rem;
-	float: left;
-}
-
-.avatar-right {
-	float: right;
-	-moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
-	filter: FlipH;
-	-ms-filter: "FlipH";
-}
-
-.main-title{
-	height: 13rem;
-	padding-top: 0.8rem;
-}
-
-
-.title{
-	text-align: center;
-	font-weight: 800;	
+.border-bottom{
+	border-radius: 0.7rem;
+	border-color: #b2e1d7;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 0.2rem;
 }
 
 .contact-info{
@@ -189,10 +209,18 @@ a{
 	text-align: center;
 	padding: 2rem;
 	color: #b2e1d7;
+	color:#CF81AF;
 	background:#26262a;
-
-	border-radius: 0.7rem;
 	margin: 1.6%;
+}
+
+.shadow-hover{
+	box-shadow: 0.2rem 0.2rem 0.25rem #00000030;
+	transition: all 0.25s;
+}
+
+.shadow-hover:hover{
+	box-shadow: 0.25rem 0.25rem 0.30rem #00000030;
 }
 
 .title h2{
