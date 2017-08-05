@@ -13,12 +13,20 @@ body{
 
 a{
 	cursor: inherit;
-	color:#CF81AF;
+	color:#669AB6;
 }
 
 a:hover{
-	color:#9f6582;
+	color:#568AA6;
 }
+
+/*
+449754
+B1E0D6
+669AB6
+6973CD
+8F63C3
+*/
 
 .container{
 		width: 100%;
@@ -50,10 +58,31 @@ a:hover{
 
 }
 
-.content{
-	background-image: url("img/bgr.png");
+
+.main-title{
+	/*height: 13rem;*/
+	width: 100%;
+	padding-top: 0.8rem;
+	background-image: url("img/bgwup.png");
 	background-repeat: repeat-x;
-	background-color: #9f6582;
+	background-color: #E5B2CF;
+	min-height: 156px;
+}
+
+.main-title>.container{
+    vertical-align: middle;
+	padding-top: 38px;
+}
+
+.main-title h1{
+	margin-bottom: 0px;
+}
+
+
+.content{
+	background-image: url("img/bgw.png");
+	background-repeat: repeat-x;
+	background-color: #B1E0D6;
 	padding-top: 2rem;
 }
 
@@ -92,17 +121,6 @@ a:hover{
 	transform: scaleX(-1);
 	filter: FlipH;
 	-ms-filter: "FlipH";
-}
-
-.main-title{
-	/*height: 13rem;*/
-	width: 100%;
-	padding-top: 0.8rem;
-	background: #B1E0D6;
-}
-
-.main-title h1{
-	margin-bottom: 0px;
 }
 
 
@@ -179,8 +197,6 @@ a:hover{
 	background:#43436f;
 }
 
-
-
 .button-container{
 	position: absolute;
     bottom: 1em;
@@ -193,7 +209,7 @@ a:hover{
 
 .border-bottom{
 	border-radius: 0.7rem;
-	border-color: #b2e1d7;
+	border-color: #CF81AF;
 	border-style: solid;
 	border-width: 0px;
 	border-bottom-width: 0.2rem;
@@ -208,7 +224,6 @@ a:hover{
 .contact-info>div{
 	text-align: center;
 	padding: 2rem;
-	color: #b2e1d7;
 	color:#CF81AF;
 	background:#26262a;
 	margin: 1.6%;
