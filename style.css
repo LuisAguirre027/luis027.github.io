@@ -33,6 +33,7 @@ B1E0D6
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
 		margin: auto;
+		padding-bottom: 5rem;
 	}
 
 @media all and (min-width: 300pt) {
@@ -78,6 +79,10 @@ B1E0D6
 	margin-bottom: 0px;
 }
 
+.main-title a{
+	text-shadow: 0.2rem 0.2rem #E5B2CF;
+}
+
 
 .content{
 	background-image: url("img/bgw.png");
@@ -98,13 +103,33 @@ B1E0D6
 }
 
 .social{
-	margin-top: 2rem;
+	margin-top: 5rem;
 	text-align: center;
-	font-size: 3rem;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	
+	font-weight: 800;	
+}
+
+.social a{
+	color: #CF81AF;
+}
+
+.social a:hover{
+	color: #BF719F;
+}
+.social ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+.social li{
+	display: inline-block;
+}
+
+.social li:before{
+	content: "  -  ";
+}
+
+.social li:first-child:before{
+	content: "";
 }
 
 .avatar{
@@ -194,7 +219,7 @@ B1E0D6
 }
 
 .game-button:hover{
-	background:#43436f;
+	background:#6973CD;
 }
 
 .button-container{
@@ -227,6 +252,19 @@ B1E0D6
 	color:#CF81AF;
 	background:#26262a;
 	margin: 1.6%;
+}
+
+.contact-info>div:hover{
+	color:#6973CD;
+	border-color: #6973CD;
+}
+
+.contact-info>div:hover a{
+	color:#CF81AF;
+	
+}
+.contact-info>div a{
+	transition: color 0.25s;
 }
 
 .shadow-hover{
