@@ -13,7 +13,7 @@ body{
 
 a{
 	cursor: inherit;
-	color:#669AB6;
+	color:#334757;
 }
 
 a:hover{
@@ -26,6 +26,9 @@ B1E0D6
 669AB6
 6973CD
 8F63C3
+
+943D6F
+334757
 */
 
 .container{
@@ -109,11 +112,11 @@ B1E0D6
 }
 
 .social a{
-	color: #CF81AF;
+	color: #943D6F;
 }
 
 .social a:hover{
-	color: #BF719F;
+	color: #CF81AF;
 }
 .social ul{
 	padding: 0;
